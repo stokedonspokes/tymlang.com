@@ -1,0 +1,103 @@
+html {
+    font-family: 'montserrat', san-serif;
+    font-size: 100%;
+    color: darkturquoise;
+    background: snow;
+}
+
+p {
+    font-size:14pt;
+    color: darkslategray;
+    line-height: 1.3rem;
+}
+
+a { 
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.mainpage {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    width: 75vw;
+}
+
+.box {
+    display: grid;
+    grid-auto-columns: 100px 100px 100px;
+    grid-auto-rows: 100px 100px 100px;
+    min-width: 300px;
+    min-height: 300px;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    margin:auto;
+    padding: 5px;
+    transform: rotate(-15deg);
+
+}
+
+.box h1 {
+    font-family: alverata-irregular, serif;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-size: 47pt;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    text-align: right;
+}
+
+
+.box h2 {
+    grid-row 2;
+    grid-column: 3;
+    font-family: alverata-irregular, serif;
+    font-weight: 500;
+    font-size: 36pt;
+    color: goldenrod;
+    writing-mode: vertical-lr;
+    justify-self: end;  
+    letter-spacing: .08em;
+    margin-right: -10px;
+    margin-top: -33px;
+    z-index: 2;
+}
+.nav {
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    justify-content: end;
+}
+
+.nav ul {
+    margin-top: 25px;
+}
+
+li .border {
+    border-top: 5px solid black;
+    z-index: 1;
+    width: 85%;
+    margin-bottom: 2px;
+}
+
+nav .li {
+    margin-top: 2px;
+}
+
+.box a {
+    padding: 0px 5px;
+    font-family: 'Montserrat',. sans-serif;
+    font-weight: 500;
+    font-size: 14pt ;
+    line-height: 16px; 
+    color: black;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top 3px;
+}
+
